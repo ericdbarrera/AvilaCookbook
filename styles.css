@@ -1,0 +1,135 @@
+
+
+*{ 
+    box-sizing: border-box;
+}
+
+html {
+    scroll-snap-type: y mandatory;
+    scroll-padding-top: 50px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: clamp(0.5rem, 1vw + 1rem, 1.3rem);
+    background-color: #e0e0e07e;
+}
+
+section {
+    height: 100vh;
+    scroll-snap-align: start;
+    scroll-snap-stop: normal;
+}
+
+
+
+.title {
+    font-family: monospace;
+}
+
+#top {
+    position: absolute;
+    top: 0;
+    left: 20;
+    right: 20;
+    height: 50px;
+    padding: 70px;
+
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    height: 100vh;
+}
+
+#hero {
+    background-image: url(./assets/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    margin: 0;
+    width: auto;
+}
+
+section{
+    width: 95%;
+    margin: 0 auto;
+    padding: 1rem;
+    line-height: 3;
+
+    display: block;
+    text-align: center;
+}
+
+
+button {
+    font-size: clamp(0.2rem, 1vw + 1rem, 1.3rem);
+    padding: 0.5rem 1rem;
+    border: 0;
+    border-bottom: 5px solid #242423;
+    border-left: 1px solid #333533;
+    border-radius: 2px;
+    color: #333533;
+    cursor: pointer;
+    position: relative;
+}
+
+button:active {
+border-bottom-width: 2px;
+top: 3px;
+}
+
+.entree-btns {
+background-color: #d0c9ea;
+}
+
+.sides-btns {
+    background-color: #ccda87;
+}
+
+.dessert-btns {
+    background-color: #f4c8a6;
+}
+
+.beverage-btns {
+    background-color: #f4c8a6;
+}
+
+footer {
+    background-color: rgb(78, 76, 76);
+    color: white;
+
+    font-family: sans-serif;
+
+}
+
+.footer-container {
+display:flex;
+align-items: center;
+justify-content: center;
+place-content: center;
+border: 2px solid green;
+}
+
