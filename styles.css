@@ -25,25 +25,22 @@ section {
 
 
 .title {
-    font-family: monospace;
+    font-family:  monospace;
 }
 
-#top {
+
+    header {
     position: absolute;
     top: 0;
     left: 20;
     right: 20;
     height: 50px;
     padding: 70px;
-
-}
-
-header {
+    font-size: 1.8em;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.7rem;
     height: 100vh;
 }
 
@@ -57,7 +54,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.7rem;
+
     color: white;
     text-shadow: 2px 2px 4px #000000;
 
@@ -78,7 +75,6 @@ section{
     margin: 0 auto;
     padding: 1rem;
     line-height: 3;
-
     display: block;
     text-align: center;
 }
@@ -118,18 +114,29 @@ background-color: #d0c9ea;
 }
 
 footer {
-    background-color: rgb(78, 76, 76);
     color: white;
-
+    padding: 15px;
     font-family: sans-serif;
-
+    width:95%;
+    
 }
 
 .footer-container {
+background-color: rgb(78, 76, 76);
 display:flex;
 align-items: center;
 justify-content: center;
 place-content: center;
-border: 2px solid green;
+width: 100%;
 }
 
+
+
+@media screen and (min-width: 768px) {
+    button {
+        font: 0.1rem;
+    }
+    footer {
+        font: 0.1rem;
+    }
+}
