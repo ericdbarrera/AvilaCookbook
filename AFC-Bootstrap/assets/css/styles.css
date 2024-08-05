@@ -48,8 +48,8 @@ nav>img {
   background-position: center;
   background-repeat: no-repeat;
   object-fit: contain;
-  height: 100vh;
   border-radius: 5px;
+  padding: 20px;
   position: relative;
 }
 
@@ -85,9 +85,12 @@ nav>img {
 .icon {
   height: 22px;
 }
-footer {
+
+
+.footer {
   font-size: clamp(0.5rem, 1vw + 1rem, 1.3rem);
-  color: #ffffff;
+  color: rgb(255, 255, 255);
+  background-color: #333332;
 }
 
 
